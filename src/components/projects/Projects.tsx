@@ -1,14 +1,13 @@
 import { FC } from "react";
-
+import TODO from "../../assets/images/project__overview.png";
 const projectsData = [
   {
-    title: "Lawyer Management System",
-    description:
-      "A full-stack application for managing client cases, appointments, and billing with authentication and user roles.",
-    image: "https://placehold.co/400", // Replace with your image path
-    technologies: ["Node.js", "Express", "MySQL", "React"],
-    liveLink: "https://example.com",
-    repoLink: "https://github.com/your-repo",
+    title: "Todo Task App",
+    description: "A full-stack app for managing daily tasks.",
+    image: TODO, // Replace with your image path
+    technologies: ["Node.js", "Express", "MySQL", "Ejs"],
+    liveLink: "https://todo-task-manager-fdee.onrender.com/",
+    repoLink: "https://github.com/ReDhaBenKortbi/todo-task-manager",
   },
 
   // Add more projects as needed
